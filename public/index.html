@@ -4,31 +4,27 @@
     <meta charset="utf-8">
     <title>Web4 BS - CS 480</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Loading Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
     <!-- Loading Flat UI -->
     <link href="css/flat-ui.css" rel="stylesheet">
-
+    <link href="css/bs.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="padding-top:60px;">
-
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-embossed" role="navigation">
+  <body style="padding-top:50px;background-color:#293a4a;">
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
           <span class="sr-only">Toggle navigation</span>
         </button>
         <a class="navbar-brand" href="#">BS<sup>4</sup></a>
       </div>
-
       <div class="collapse navbar-collapse" id="navbar-collapse-01">
         <!-- right side options dropdown -->
         <ul class="nav navbar-nav navbar-right">           
@@ -49,11 +45,66 @@
       </div><!-- /.navbar-collapse -->
     </nav><!-- /navbar -->
 
+    <!--
     <div class="container">
         Search above, results will show here.
     </div>
+    -->
     <!-- /.container -->
 
+    <!-- item, order, payment, address, customer -->
+    <div class="result">
+    <ul>
+      <li>
+        <div class="result-icon fui-list"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            Shipped &mdash; 2/5/12 <span style="float:right;">Order #5141</span>
+          </h4>
+          2 items <span style="float:right;">$84.12</span>
+        </div>
+      </li>
+      <li>
+        <div class="result-icon fui-user"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            Pat <span style="float:right;">Customer #848</span>
+          </h4>
+          comment
+          <br/>
+          billing address
+        </div>
+      </li>
+      <li>
+        <div class="result-icon fui-location"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            12455 Highway, Pomona, CA 54874 <span style="float:right;">Address #545</span>
+          </h4>
+          Customer #874
+        </div>
+      </li>
+      <li>
+        <div class="result-icon fui-checkbox-checked"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            Short Desc <span style="float:right;">Item #50</span>
+          </h4>
+          <span style="float:right;">$25.35</span>
+          description
+        </div>
+      </li>
+      <li>
+        <div class="result-icon fui-radio-checked"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            $48.13 &mdash; 5/5/95<span style="float:right;">Payment #87</span>
+          </h4>
+          Pat on 5/5/95
+        </div>
+      </li>
+    </ul>
+    </div>
 
     <!-- Load JS here for greater good =============================-->
     <script src="js/jquery-1.8.3.min.js"></script>
