@@ -10,6 +10,71 @@
     <link href="css/flat-ui.css" rel="stylesheet">
     <link href="css/bs.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
+
+    <script id="temp-Order" type="text/x-handlebars-template">
+      <li>
+        <!-- order -->
+        <div class="result-icon fui-list"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            Ordered &mdash; {{CreatedDate}} <span style="float:right;">Order {{OrderId}}</span>
+          </h4>
+          {{Items.length}} items <span style="float:right;">${{Subtotal}}</span>
+        </div>
+      </li>
+    </script>
+    <script id="temp-Customer" type="text/x-handlebars-template">
+      <li>
+        <!-- customer -->
+        <div class="result-icon fui-user"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            {{Name}} <span style="float:right;">Customer {{CustomerId}}</span>
+          </h4>
+          {{Comment1}}
+          <br/>
+          Billing Address: {{BillingAddressId}}
+        </div>
+      </li>
+    </script>
+    <script id="temp-Address" type="text/x-handlebars-template">
+      <li>
+        <!-- location -->
+        <div class="result-icon fui-location"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            {{Address1}}, {{State}} {{Zip}} <span style="float:right;">Address {{AddressId}}</span>
+          </h4>
+          Customer {{CustomerId}}
+        </div>
+      </li>
+    </script>
+    <script id="temp-Item" type="text/x-handlebars-template">
+      <li>
+        <!-- item -->
+        <div class="result-icon fui-checkbox-checked"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            Short Desc <span style="float:right;">Item #50</span>
+          </h4>
+          <span style="float:right;">$25.35</span>
+          description
+        </div>
+      </li>
+    </script>
+    <script id="temp-Payment" type="text/x-handlebars-template">
+      <li>
+        <!-- payment -->
+        <div class="result-icon fui-radio-checked"></div>
+        <div class="result-content">
+          <h4 class="result-name">
+            $48.13 &mdash; 5/5/95<span style="float:right;">Payment #87</span>
+          </h4>
+          Pat on 5/5/95
+        </div>
+      </li>
+    </script>
+    
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -17,6 +82,7 @@
     <![endif]-->
   </head>
   <body style="padding-top:50px;background-color:#293a4a;">
+    
     <!-- navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="navbar-header">
@@ -32,10 +98,10 @@
           <li><a href="#fakelink">Options</a></li>
         </ul>
         <!-- search form -->
-        <form class="navbar-form" action="#" role="search" style="display:table;">
+        <form class="navbar-form" action="#" onSubmit="return doQuery()" role="search" style="display:table;">
           <div class="form-group" style="width:100%;">
             <div class="input-group">
-              <input class="form-control" style="width:100%" id="navbarInput-01" type="search" placeholder="Search">
+              <input class="form-control" style="width:100%" id="searchQuery" type="search" placeholder="Search">
               <span class="input-group-btn">
                 <button type="submit" class="btn"><span class="fui-search"></span></button>
               </span>            
@@ -45,64 +111,21 @@
       </div><!-- /.navbar-collapse -->
     </nav><!-- /navbar -->
 
-    <!--
-    <div class="container">
-        Search above, results will show here.
+    <!-- instructional content -->
+    <div id="intro">
+      <div class="container text-inverse" style="padding-top:30px;">
+          <p>Search above, results will show here.</p>
+      </div>
+      <div class="container">
+        <h1>BS<sup>4</sup></h1>
+        <p>We business seach you good</p>
+      </div>
     </div>
-    -->
-    <!-- /.container -->
 
-    <!-- item, order, payment, address, customer -->
-    <div class="result">
-    <ul>
-      <li>
-        <div class="result-icon fui-list"></div>
-        <div class="result-content">
-          <h4 class="result-name">
-            Shipped &mdash; 2/5/12 <span style="float:right;">Order #5141</span>
-          </h4>
-          2 items <span style="float:right;">$84.12</span>
-        </div>
-      </li>
-      <li>
-        <div class="result-icon fui-user"></div>
-        <div class="result-content">
-          <h4 class="result-name">
-            Pat <span style="float:right;">Customer #848</span>
-          </h4>
-          comment
-          <br/>
-          billing address
-        </div>
-      </li>
-      <li>
-        <div class="result-icon fui-location"></div>
-        <div class="result-content">
-          <h4 class="result-name">
-            12455 Highway, Pomona, CA 54874 <span style="float:right;">Address #545</span>
-          </h4>
-          Customer #874
-        </div>
-      </li>
-      <li>
-        <div class="result-icon fui-checkbox-checked"></div>
-        <div class="result-content">
-          <h4 class="result-name">
-            Short Desc <span style="float:right;">Item #50</span>
-          </h4>
-          <span style="float:right;">$25.35</span>
-          description
-        </div>
-      </li>
-      <li>
-        <div class="result-icon fui-radio-checked"></div>
-        <div class="result-content">
-          <h4 class="result-name">
-            $48.13 &mdash; 5/5/95<span style="float:right;">Payment #87</span>
-          </h4>
-          Pat on 5/5/95
-        </div>
-      </li>
+    <!-- search results -->
+    <div class="result" id="results">
+    <ul id="results-list">
+      
     </ul>
     </div>
 
@@ -117,5 +140,9 @@
     <script src="js/flatui-radio.js"></script>
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
+    
+    <script src="handlebars-v1.3.0.js"></script>
+
+    <script src="client.js"></script>
   </body>
 </html>

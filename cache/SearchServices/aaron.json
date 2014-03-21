@@ -1,0 +1,1187 @@
+{
+  "Count":32,
+  "Results":[
+    {
+      "ContractType":"Customer",
+      "CustomerId":"AARONFIT0001",
+      "ShippingAddressId":"AARONFIT0001",
+      "BillingAddressId":"AARONFIT0001",
+      "Name":"Aaron Fitz Electrical",
+      "ShortName":"Aaron Fitz Elec",
+      "Comment1":"",
+      "Comment2":"",
+      "TradeDiscount":"0"
+    },
+    {
+      "ContractType":"Address",
+      "AddressId":"PRIMARY",
+      "CustomerId":"AARONFIT0001",
+      "Address1":"One Microsoft Way",
+      "Address2":"",
+      "Address3":"",
+      "Country":"USA",
+      "State":"WA",
+      "City":"Redmond",
+      "Zip":"98052-6399",
+      "Phone1":"42555501010000",
+      "Phone2":"00000000000000",
+      "Phone3":"",
+      "Fax":"31255501010000"
+    },
+    {
+      "ContractType":"Address",
+      "AddressId":"WAREHOUSE",
+      "CustomerId":"AARONFIT0001",
+      "Address1":"11403 45 St. South",
+      "Address2":"",
+      "Address3":"",
+      "Country":"USA",
+      "State":"IL",
+      "City":"Chicago",
+      "Zip":"60603-0776",
+      "Phone1":"31255501020000",
+      "Phone2":"31255501020000",
+      "Phone3":"",
+      "Fax":"31255501020000"
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"FULORD1000",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-03-02 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-05-12 00:00:00.0",
+      "InvoiceDate":"2017-04-12 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":349.85,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":2,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"100XLG",
+            "Cost":119.9,
+            "Description":"Green Phone",
+            "ShortDescription":"Phone",
+            "GenericDescription":"Phone"
+          }
+        },
+        {
+          "NumberOrdered":1,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"256 SDRAM",
+            "Cost":229.95,
+            "Description":"256 meg SDRAM",
+            "ShortDescription":"RAM",
+            "GenericDescription":"RAM"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"FULORD1003",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-03-02 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-05-12 00:00:00.0",
+      "InvoiceDate":"2017-04-12 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":49.85,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":2,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"BK MOUSE",
+            "Cost":39.9,
+            "Description":"Black Mouse",
+            "ShortDescription":"Mouse",
+            "GenericDescription":"Mouse"
+          }
+        },
+        {
+          "NumberOrdered":1,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"CAP100",
+            "Cost":9.95,
+            "Description":"Capacitor",
+            "ShortDescription":"Capacitor",
+            "GenericDescription":"Capacitor"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"FULORD1006",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-03-02 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-05-12 00:00:00.0",
+      "InvoiceDate":"2017-04-12 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":5449.85,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":1,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"HDWR-LDS-0001",
+            "Cost":5409.95,
+            "Description":"Network LDS/Card",
+            "ShortDescription":"Card",
+            "GenericDescription":"Hardware"
+          }
+        },
+        {
+          "NumberOrdered":2,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"KB104",
+            "Cost":39.9,
+            "Description":"Keyboard",
+            "ShortDescription":"Keyboard",
+            "GenericDescription":"Keyboard"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"FULORD1008",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-03-02 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-05-12 00:00:00.0",
+      "InvoiceDate":"2017-04-12 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":179.85,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":2,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"PHON-BAS-0001",
+            "Cost":59.9,
+            "Description":"Phone Base",
+            "ShortDescription":"Base",
+            "GenericDescription":""
+          }
+        },
+        {
+          "NumberOrdered":1,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"PHON-FGD-0001",
+            "Cost":119.95,
+            "Description":"Phones-Hands Free Dual Ear",
+            "ShortDescription":"Phone Dual",
+            "GenericDescription":"FG"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"QTEST1022",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2017-05-09 00:00:00.0",
+      "RequestedShipDate":"1900-01-01 00:00:00.0",
+      "ActualShipDate":"1900-01-01 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"2017-03-05 00:00:00.0",
+      "DueDate":"2017-03-05 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":79.95,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"ACCS-HDS-1EAR",
+            "Cost":79.95,
+            "Description":"Headset-Single Ear",
+            "ShortDescription":"Headset",
+            "GenericDescription":"Accessory"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2226",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2017-04-12 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":930.2,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"128 SDRAM",
+            "Cost":270.4,
+            "Description":"128 meg SDRAM",
+            "ShortDescription":"RAM",
+            "GenericDescription":"RAM"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"333PROC",
+            "Cost":239.95,
+            "Description":"333 Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Processor"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"4.5HD",
+            "Cost":379.9,
+            "Description":"4.5 gig Hard Drive",
+            "ShortDescription":"Drive",
+            "GenericDescription":"Drive"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"40X IDE",
+            "Cost":39.95,
+            "Description":"40x CD-ROM",
+            "ShortDescription":"CD ROM",
+            "GenericDescription":"CD ROM"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2244",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":500,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":500,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2245",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"1900-01-01 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":32000,
+      "DepositReceived":0,
+      "Items":[
+
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2230",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":500,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":500,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2231",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":501,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":501,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2232",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":1000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":1000,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2233",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":64000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":64000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2234",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":178000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":160000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3483A",
+            "Cost":13000,
+            "Description":"SIMM EDO 72",
+            "ShortDescription":"SIMM",
+            "GenericDescription":""
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":5000,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2236",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":500,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":500,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2237",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":32000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":32000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2238",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":32000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":32000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2239",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":1500,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":1500,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2240",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":26000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3483A",
+            "Cost":26000,
+            "Description":"SIMM EDO 72",
+            "ShortDescription":"SIMM",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2241",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2013-09-13 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-13 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-13 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":32000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":32000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2242",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2013-09-13 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-13 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-13 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":45000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":32000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3483A",
+            "Cost":13000,
+            "Description":"SIMM EDO 72",
+            "ShortDescription":"SIMM",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2243",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-13 00:00:00.0",
+      "RequestedShipDate":"2013-09-13 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-13 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-13 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":320000,
+      "DepositReceived":0,
+      "Items":[
+
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2246",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2013-09-15 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-15 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-15 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":143000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":128000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3483A",
+            "Cost":10000,
+            "Description":"SIMM EDO 72",
+            "ShortDescription":"SIMM",
+            "GenericDescription":""
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"100XLG",
+            "Cost":5000,
+            "Description":"Green Phone",
+            "ShortDescription":"Phone",
+            "GenericDescription":"Phone"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2247",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2013-09-15 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-15 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-15 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":500,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1GPROC",
+            "Cost":500,
+            "Description":"1 Ghz Processor",
+            "ShortDescription":"",
+            "GenericDescription":""
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2252",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2013-09-15 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-15 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-15 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":175000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":160000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3483A",
+            "Cost":10000,
+            "Description":"SIMM EDO 72",
+            "ShortDescription":"SIMM",
+            "GenericDescription":""
+          }
+        },
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"100XLG",
+            "Cost":5000,
+            "Description":"Green Phone",
+            "ShortDescription":"Phone",
+            "GenericDescription":"Phone"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2257",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2013-09-15 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-15 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-15 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":32000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":32000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2254",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2013-09-15 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2013-09-15 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2013-09-15 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":64000,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"1-A3261A",
+            "Cost":64000,
+            "Description":"Multi-Core Processor",
+            "ShortDescription":"Processor",
+            "GenericDescription":"Servers"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2256",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2013-09-15 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"1900-01-01 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":0,
+      "DepositReceived":0,
+      "Items":[
+
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"ORDST2258",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-02-19 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-04-12 00:00:00.0",
+      "InvoiceDate":"1900-01-01 00:00:00.0",
+      "OrderDate":"2017-04-12 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":39.95,
+      "DepositReceived":39.95,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"A100",
+            "Cost":39.95,
+            "Description":"Audio System",
+            "ShortDescription":"Audio",
+            "GenericDescription":"Audio"
+          }
+        }
+      ]
+    },
+    {
+      "ContractType":"Order",
+      "OrderId":"STDINV2260",
+      "CustomerId":"AARONFIT0001",
+      "BillingAddressId":"11403 45 St. South",
+      "ShippingAddressId":"11403 45 St. South",
+      "CreatedDate":"2014-03-02 00:00:00.0",
+      "RequestedShipDate":"2017-04-12 00:00:00.0",
+      "ActualShipDate":"2017-04-12 00:00:00.0",
+      "ReturnDate":"1900-01-01 00:00:00.0",
+      "SaleDate":"1900-01-01 00:00:00.0",
+      "PostedDate":"1900-01-01 00:00:00.0",
+      "QuoteDate":"1900-01-01 00:00:00.0",
+      "DueDate":"2017-05-12 00:00:00.0",
+      "InvoiceDate":"2017-04-12 00:00:00.0",
+      "OrderDate":"1900-01-01 00:00:00.0",
+      "ShippingMethod":"LOCAL DELIVERY",
+      "PackingSlipNumber":null,
+      "CODAmount":0,
+      "Subtotal":449.85,
+      "DepositReceived":0,
+      "Items":[
+        {
+          "NumberOrdered":0,
+          "Item":{
+            "ContractType":"Item",
+            "ItemId":"ANSW-PAN-2460",
+            "Cost":449.85,
+            "Description":"Panache KX-T2460 answer",
+            "ShortDescription":"PAN ANSWER 2",
+            "GenericDescription":"Anwer"
+          }
+        }
+      ]
+    }
+  ]
+}
